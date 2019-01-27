@@ -1,0 +1,274 @@
+﻿@font-face {
+  font-family: "Aleo"; /* Имя шрифта */
+  src: url(../fonts/aleo-regular-webfont.ttf); /* Путь к файлу со шрифтом */
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 100%;
+  min-height: 100vh;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 14px;
+  color: #ffffff;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: #ffffff
+}
+
+img {
+  width: auto;
+  max-width: 100%;
+}
+button {
+  min-height: 61px;
+  line-height: 61px;
+  background-color: #5474fd;
+  border: none;
+  color: #ffffff;
+  padding: 0 40px;
+  text-transform: uppercase;
+  font-family: "Aleo", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  opacity: .8;
+}
+.bhromaon {
+  background: url("../img/header_bg.png") no-repeat 0 0;
+}
+.wrapper {
+  width: 1110px;
+  margin: 0 auto;
+}
+.wrapper .bhromaon-tab {
+  padding: 250px 0 135px 0;
+  text-align: center;
+  font-family: 'Josefin Sans', sans-serif;
+}
+.bhromaon-tab h1 {
+  font-size: 48px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #ffffff;
+  letter-spacing: 4px;
+}
+.bhromaon-tab p {
+  font-size: 22px;
+  color: #ffffff;
+  opacity: .7;
+  letter-spacing: 6px;
+}
+.bhromaon-search {
+  width: 650px;
+  margin: 50px auto 120px auto;
+  min-height: 60px;
+  overflow: hidden;
+}
+.bhromaon-search input {
+  float: left;
+  line-height: 60px;
+  padding: 0 128px;
+  font-size: 14px;
+  background-color: #ffffff;
+  border: none;
+
+}
+.bhromaon-search button {
+  float: left;
+  min-height: 56px;
+  line-height: 56px;
+  padding: 0 35px 0 50px;
+  border: 2px solid #ffffff;
+  background: #5474fd;
+  color: #ffffff;
+  font-family: "Aleo", sans-serif;
+  font-size: 14px;
+  text-transform: uppercase;
+  outline: none;
+  opacity: 1;
+}
+header {
+  background-color: #5474fd;
+}
+header .wrapper .menu {
+   overflow: hidden;
+}
+.menu nav {
+  float: right;
+}
+.menu .logo {
+  float: left;
+  padding: 25px 0;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 24px;
+}
+.menu nav ul {
+  display: flex;
+  min-height: 80px;
+  justify-content: center;
+}
+.menu nav ul li  {
+  display: block;
+}
+.menu nav ul li a {
+  display: block;
+  padding: 32px 30px;
+  font-family: "Aleo", sans-serif;
+  text-transform: uppercase;
+}
+.chose {
+  background: url("../img/castle.png") no-repeat 0 0;
+}
+.chose .wrapper .chose-container {
+  overflow: hidden;
+}
+.chose-text, .chose-image {
+  width: 541px;
+}
+.chose-container .chose-text {
+  float: left;
+  padding: 190px 0 130px 0;
+}
+.chose-container .chose-text h2 {
+  padding-bottom: 50px;
+  font-family: "Aleo", sans-serif;
+  font-weight: 400;
+  font-size: 36px;
+}
+.chose-container .chose-text p {
+  padding-bottom: 40px;
+  font-size: 16px;
+  font-weight: 400;
+  opacity: .7;
+  line-height: 22px;
+}
+
+.chose-container .chose-image {
+  float: right;
+  overflow: hidden;
+}
+.chose-container .chose-image img:first-child {
+  float: left;
+  padding-top: 120px;
+}
+.chose-container .chose-image img:first-child {
+  float: right;
+}
+.icon-tab {
+  background: #333333;
+}
+.icon-tab .wrapper .icon-container {
+  margin: 0 auto;
+  display: flex;
+  min-height: 335px;
+  justify-content: space-around;
+  align-items: center;
+}
+.icon-container .icon-content {
+  text-align: center;
+}
+.icon-container .icon-content img {
+  margin-bottom: 30px;
+}
+.icon-container .icon-content p {
+  font-size: 36px;
+  opacity: .7;
+}
+.spain-tab {
+  padding: 120px 0 209px 0;
+  background: url("../img/mountains.png") no-repeat 0 0;
+  overflow: hidden;
+}
+.spain-tab .wrapper .spain-content {
+  width: 541px;
+  float: right;
+  background-color: #333333;
+  opacity: .9;
+}
+.spain-content .spain-info {
+  width: 480px;
+  margin: 0 auto;
+  padding: 40px 0 50px 0;
+}
+.spain-info h3 {
+  padding-bottom: 20px;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+.spain-info h3:nth-child(2) {
+  text-transform: uppercase;
+}
+.spain-info p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  padding-bottom: 45px;
+}
+.tourist-tab {
+  background: url("../img/tourist_bg.png") no-repeat 0 0;
+}
+.tourist-tab .tourist-say {
+  padding: 155px 0 200px 0;
+}
+.tourist-tab .tourist-say h2 {
+  text-align: center;
+  padding-bottom: 95px;
+  font-weight: 400;
+  font-size: 36px;
+}
+.tourist-say .tourist-content {
+  background-color: #333333;
+  display: flex;
+}
+
+.tourist-content .tourist-text {
+  width: 550px;
+  margin: 0 auto;
+}
+.tourist-content .tourist-text h3 {
+   padding: 45px 0;
+ }
+.tourist-content .tourist-text p {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+.tourist-content .tourist-text i {
+  color: #5474fd;
+}
+footer {
+  background-color: #232323;
+}
+footer .footer-content {
+  width: 170px;
+  margin: 0 auto;
+  padding: 115px 0 45px 0;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 16px;
+}
+footer .footer-content h3 {
+  font-size: 24px;
+  font-weight: bold;
+}
+footer .footer-content p {
+  padding: 10px 0 25px 0
+;
+}
+.footer-content .icons i {
+  font-size: 16px;
+  padding-right: 15px;
+}
+.footer-content .icons:hover,.icons:active {
+  color: #5474fd;
+}
